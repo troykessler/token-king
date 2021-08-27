@@ -7,7 +7,6 @@ WORKDIR /token-king/
 COPY . .
 
 RUN yarn install
-RUN yarn build
+RUN yarn generate
 
-CMD ["yarn", "start"]
 EXPOSE 3000
