@@ -8,5 +8,3 @@ COPY . .
 
 RUN yarn install
 RUN yarn generate
-
-EXPOSE 3000
